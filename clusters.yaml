@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: armlet55-hasura
+  data: null
+  kubeContext: armlet55
+  name: armlet55

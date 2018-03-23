@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<title>
+    Task 2
+</title>
+    <body>
+    <h3>Task 2</h3>
+        <table border="2px">
+            <tr>
+                <td>Name of Author</td>
+                <td>Number of posts</td>
+            </tr>
+
+            {% for i in range(0,10) %}
+            <tr>
+                 <td>{{author_name[i]}}</td>
+                <td>{{ number_of_posts[i] }}</td>
+            </tr>
+            {% endfor %}
+
+        </table>
+    </body>
+</html>
