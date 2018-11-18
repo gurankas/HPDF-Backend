@@ -1,5 +1,5 @@
 PyWit==0.4.0
-Flask==0.12.2
+Flask==0.12.3
 Requests==2.20.0
 atlas==0.27.0
 wit==5.1.0
